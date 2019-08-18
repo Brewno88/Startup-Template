@@ -4,5 +4,22 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "name": "kobe",
+  "description": "I have created this template that you can use as a base when you want to create a webpage using **SCSS**! 💻 🖥</br> It will use a very handy toolkit called [**Gulp**](https://gulpjs.com) to automate your workflow.",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brewno88/Kobe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brewno88/Kobe/issues"
+  },
+  "homepage": "https://github.com/Brewno88/Kobe#readme"
 }
