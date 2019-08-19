@@ -11,7 +11,6 @@ function style(){
     // create a folder named 'css' with inside a compiled 'style.css'
     .pipe(gulp.dest('./css'));
 }
-exports.style = style;
 // run 'gulp style' in terminal to run this function
 
 // watch for any changes
@@ -24,8 +23,10 @@ function watch(){
     // watch for any change in any .scss file
     gulp.watch('./scss/**/*.scss', style);
     // watch for any change in index.html
-    gulp.watch('./html').on('change', browserSync.reload);
+    gulp.watch('./*.html').on('change', browserSync.reload);
     // watch for any change in any .js file
     gulp.watch('./js/**/*.js').on('change', browserSync.reload);
 }
+
+exports.style = style;
 exports.watch = watch;
