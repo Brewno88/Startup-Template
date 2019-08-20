@@ -9,7 +9,8 @@ function style(){
     // pass 'scss/style.scss' into the compiler
     .pipe(sass())
     // create a folder named 'css' with inside a compiled 'style.css'
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./css'))
+    .pipe(browserSync.stream());
 }
 // run 'gulp style' in terminal to run this function
 
