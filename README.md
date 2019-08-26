@@ -18,7 +18,7 @@ We will also use [**Browser-Sync**](https://www.browsersync.io) to sync changes 
 
 ### What you need!
 
-Although you won't need to install those packages you need to have installed [**Node.js**](https://nodejs.org/en/) and [**npm**](https://www.npmjs.com) to check that simply run:
+Although you won't need to install those packages you need to have installed [**Node.js**](https://nodejs.org/en/) and [**npm**](https://www.npmjs.com) - to check that simply run:
 ```
 node -v
 npm -v
